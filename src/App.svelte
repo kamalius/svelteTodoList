@@ -58,7 +58,7 @@ import { fade, fly } from 'svelte/transition';
 <style>
 	:global(body) {
 		padding: 8;
-		background-color: #413636;
+		background-color: #130f0f;
 		color: beige;
 		font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 		font-size: large;
