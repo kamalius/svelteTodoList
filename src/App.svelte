@@ -50,7 +50,7 @@ import { fade, fly } from 'svelte/transition';
 			<li in:fly="{{ x: -200, duration: 1000 }}" out:fly="{{ x: +200, duration: 1000 }}">
 			<span>{framework}</span>
 			  
-			<button class="button-2" on:click={()=>supprimer(index)}><img src="/rubbish.png" alt="poubelle"></button></li>
+			<button class="button-2" on:click={()=>supprimer(index)}><img src="/icons8-poubelle-20.svg" alt="poubelle"></button></li>
 		{/each}
 	</ul>
 </div>
@@ -58,7 +58,7 @@ import { fade, fly } from 'svelte/transition';
 <style>
 	:global(body) {
 		padding: 8;
-		background-color: #130f0f;
+		background-color: #0D1821;
 		color: beige;
 		font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 		font-size: large;
@@ -79,12 +79,12 @@ import { fade, fly } from 'svelte/transition';
 		align-items: center;
 		justify-content: space-between;
 		height: 50px;
-		background-color: #3f0505c9;
+		background-color: #344966;
 		border-radius: 5px;
 	}
 
 	input {
-		background-color: #3f0505c9;
+		background-color: #344966;
 		outline: 0px;
 		padding: 1rem;
 		color: beige;
@@ -95,7 +95,7 @@ import { fade, fly } from 'svelte/transition';
 	}
 
 	.button-1 {
-  background-color: rgb(148, 60, 60);
+  background-color: #B4CDED;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
   border-style: none;
@@ -125,7 +125,7 @@ import { fade, fly } from 'svelte/transition';
 .button-1:hover,
 .button-2:hover
 {
-  background-color: #833030;
+  background-color: #F0F4EF;
 }
 
 ul{
@@ -138,10 +138,12 @@ li	{
 	align-items: center;
 	justify-content: space-between;
 	padding-bottom: 4px;
+	padding-top: 4px;
+	
 }
 
 .button-2	{
-	background-color: rgb(148, 60, 60);
+	background-color: #B4CDED;
 	outline: none;
 	border-style: none;
 	border-radius: 5px;
