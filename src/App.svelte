@@ -50,7 +50,7 @@ import { fade, fly } from 'svelte/transition';
 			<li in:fly="{{ x: -200, duration: 1000 }}" out:fly="{{ x: +200, duration: 1000 }}">
 			<span>{framework}</span>
 			  
-			<button class="button-2" on:click={()=>supprimer(index)}><img src="src/assets/rubbish.png" alt="poubelle"></button></li>
+			<button class="button-2" on:click={()=>supprimer(index)}><img src="/rubbish.png" alt="poubelle"></button></li>
 		{/each}
 	</ul>
 </div>
